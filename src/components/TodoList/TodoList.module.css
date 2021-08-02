@@ -1,0 +1,25 @@
+.TodoList {
+  width: 500px;
+  /* outline: 1px solid blue; */
+  /* list-style: none; */
+}
+
+.TodoList__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  outline: 1px solid green;
+}
+
+.TodoList__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.TodoList__button {
+  cursor: pointer;
+  color:white;
+  background-color: rgb(100, 100, 168);
+}
