@@ -1,0 +1,25 @@
+@import 'styles/colors';
+
+.IconButton {
+  margin: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+  color: $white;
+  font: inherit;
+  background-color: $indigo;
+  cursor: pointer;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  &:hover,
+  &:focus {
+    background-color: $indigo-accent;
+  }
+
+  &:active {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
